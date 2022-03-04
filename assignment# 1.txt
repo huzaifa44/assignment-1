@@ -1,0 +1,17 @@
+void main() {
+  
+ num phy = 76;
+ num maths = 85; 
+ num urdu = 63; 
+ num isl = 78; 
+ num chemistry = 79; 
+
+ num totalmarks = 500;
+
+ num obtainedmarks = (phy+maths+urdu+isl+chemistry);
+
+ num percentage= obtainedmarks*100/500;
+ 
+ print (percentage);
+ print("my percentage is; ${percentage}%") ;
+  
