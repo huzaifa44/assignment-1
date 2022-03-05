@@ -11,7 +11,14 @@ void main() {
  num obtainedmarks = (phy+maths+urdu+isl+chemistry);
 
  num percentage= obtainedmarks*100/500;
+  if(percentage>80){
+    print("A");
+  }
+  else{
+    print("B");
+  }
+  
  
  print (percentage);
  print("my percentage is; ${percentage}%") ;
-  
+}
